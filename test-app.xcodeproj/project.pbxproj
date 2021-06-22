@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		293C15CE26823F6A00775C04 /* Extension+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C15CD26823F6A00775C04 /* Extension+Helper.swift */; };
+		293C15D026823F7900775C04 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C15CF26823F7900775C04 /* MovieModel.swift */; };
+		293C15D226823F8C00775C04 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C15D126823F8C00775C04 /* HomeView.swift */; };
+		293C15D426823F9A00775C04 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C15D326823F9A00775C04 /* NetworkManager.swift */; };
 		29C067F82681620100E5CD32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C067F72681620100E5CD32 /* AppDelegate.swift */; };
 		29C067FA2681620100E5CD32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C067F92681620100E5CD32 /* SceneDelegate.swift */; };
 		29C067FF2681620100E5CD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C067FD2681620100E5CD32 /* Main.storyboard */; };
 		29C068012681620200E5CD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C068002681620200E5CD32 /* Assets.xcassets */; };
 		29C068042681620200E5CD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C068022681620200E5CD32 /* LaunchScreen.storyboard */; };
-		29C068142681645600E5CD32 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C068132681645600E5CD32 /* MovieModel.swift */; };
-		29C06816268164D300E5CD32 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C06815268164D300E5CD32 /* NetworkManager.swift */; };
 		29C068182681651800E5CD32 /* HttpUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C068172681651800E5CD32 /* HttpUtil.swift */; };
-		29C0681B2681654900E5CD32 /* Extension+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0681A2681654900E5CD32 /* Extension+Helper.swift */; };
 		29C0681E268166F200E5CD32 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0681D268166F200E5CD32 /* Route.swift */; };
-		29C068202681674C00E5CD32 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0681F2681674C00E5CD32 /* HomeView.swift */; };
 		29C068222681675900E5CD32 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C068212681675900E5CD32 /* MovieViewModel.swift */; };
 		29C0682826816C0D00E5CD32 /* ItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C0682726816C0D00E5CD32 /* ItemView.xib */; };
 		29C0682A26816CE600E5CD32 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0682926816CE600E5CD32 /* ItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		293C15CD26823F6A00775C04 /* Extension+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+Helper.swift"; path = "Helpers/Extension+Helper.swift"; sourceTree = "<group>"; };
+		293C15CF26823F7900775C04 /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieModel.swift; path = Model/MovieModel.swift; sourceTree = "<group>"; };
+		293C15D126823F8C00775C04 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = View/HomeView.swift; sourceTree = "<group>"; };
+		293C15D326823F9A00775C04 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Network/NetworkManager.swift; sourceTree = "<group>"; };
 		29C067F42681620100E5CD32 /* test-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C067F72681620100E5CD32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29C067F92681620100E5CD32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,12 +35,8 @@
 		29C068002681620200E5CD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29C068032681620200E5CD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29C068052681620200E5CD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29C068132681645600E5CD32 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
-		29C06815268164D300E5CD32 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		29C068172681651800E5CD32 /* HttpUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpUtil.swift; sourceTree = "<group>"; };
-		29C0681A2681654900E5CD32 /* Extension+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Helper.swift"; sourceTree = "<group>"; };
 		29C0681D268166F200E5CD32 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
-		29C0681F2681674C00E5CD32 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		29C068212681675900E5CD32 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		29C0682726816C0D00E5CD32 /* ItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemView.xib; sourceTree = "<group>"; };
 		29C0682926816CE600E5CD32 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		29C0680B2681620B00E5CD32 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				29C0681F2681674C00E5CD32 /* HomeView.swift */,
+				293C15D126823F8C00775C04 /* HomeView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -106,7 +106,7 @@
 		29C0680D2681622600E5CD32 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				29C068132681645600E5CD32 /* MovieModel.swift */,
+				293C15CF26823F7900775C04 /* MovieModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 		29C0680F2681623900E5CD32 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				29C06815268164D300E5CD32 /* NetworkManager.swift */,
+				293C15D326823F9A00775C04 /* NetworkManager.swift */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 		29C068192681653900E5CD32 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				29C0681A2681654900E5CD32 /* Extension+Helper.swift */,
+				293C15CD26823F6A00775C04 /* Extension+Helper.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -238,16 +238,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C068202681674C00E5CD32 /* HomeView.swift in Sources */,
+				293C15CE26823F6A00775C04 /* Extension+Helper.swift in Sources */,
+				293C15D026823F7900775C04 /* MovieModel.swift in Sources */,
+				293C15D426823F9A00775C04 /* NetworkManager.swift in Sources */,
 				29C067F82681620100E5CD32 /* AppDelegate.swift in Sources */,
+				293C15D226823F8C00775C04 /* HomeView.swift in Sources */,
 				29C068222681675900E5CD32 /* MovieViewModel.swift in Sources */,
 				29C068182681651800E5CD32 /* HttpUtil.swift in Sources */,
 				29C0682A26816CE600E5CD32 /* ItemView.swift in Sources */,
-				29C06816268164D300E5CD32 /* NetworkManager.swift in Sources */,
 				29C067FA2681620100E5CD32 /* SceneDelegate.swift in Sources */,
 				29C0681E268166F200E5CD32 /* Route.swift in Sources */,
-				29C068142681645600E5CD32 /* MovieModel.swift in Sources */,
-				29C0681B2681654900E5CD32 /* Extension+Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
